@@ -2,6 +2,11 @@ scalaVersion := "2.11.4"
 
 libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.4" % "test"
 
+name := "sample"
+
+organization := "org.test"
+
+version := "0.1-SNAPSHOT"
 
 credentials += Credentials(Path.userHome / ".sbt" / ".credentials")
 
